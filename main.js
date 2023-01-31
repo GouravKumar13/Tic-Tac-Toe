@@ -74,7 +74,7 @@ function handleClick(e) {
   }
 }
 
-this is for anouncing the result ie wether it is a win or a draw
+//this is for anouncing the result ie wether it is a win or a draw
 function endGame(draw) {
   if (draw) {
     WinningMessageTextElement.innerText = "draw!";
